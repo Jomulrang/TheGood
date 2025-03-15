@@ -1,14 +1,15 @@
 package Q513;
 
+import java.util.Scanner;
+
 public class Main {
 
 	public static void main(String[] args) {
 		
-		double yd = 91.44;
-		double in = 2.54;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("height = ");
+		int a = sc.nextInt();
 		
-		System.out.printf(" 2.1yd = %.1fcm \r\n", 2.1 * yd);
-		System.out.printf("10.5in =  %.1fcm", 10.5 * in);
+		System.out.println("Your height is " + a + "cm.");
 	}
-
 }
