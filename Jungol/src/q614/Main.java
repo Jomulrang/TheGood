@@ -18,8 +18,6 @@ class School {
 }	
 		
 
-
-
 public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -34,5 +32,4 @@ public class Main {
 		sch1.student();
 		sch2.student();
 	}
-	
 }
